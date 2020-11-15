@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #333333;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.take-photo {
+    width: 200px;
+    height: 80px;
+    border: 2px solid tomato;
+    border-radius: 20px;
+    background: transparent;
+    color: #fff;
+    background-color: purple;
+    box-shadow: 5px 5px 5px darkmagenta;
+}
+
+img {
+    margin-top: 50px;
+}
